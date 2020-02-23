@@ -14,12 +14,23 @@ struct LinkNode
 void test_31()
 {
 	//创建节点
-
+	struct LinkNode p1 = { 1,NULL };
+	struct LinkNode p2 = { 2,NULL };
+	struct LinkNode p3 = { 3,NULL };
+	struct LinkNode p4 = { 4,NULL };
+	struct LinkNode p5 = { 5,NULL };
 	//建立关系
-
+	p1.next = &p2;
+	p2.next = &p3;
+	p3.next = &p4;
+	p4.next = &p5;
 	//遍历链表的节点
-
-
+	struct LinkNode* currentNode = &p1;
+	while (currentNode != NULL)
+	{
+		printf("%d", currentNode->num);
+		currentNode = currentNode->next;
+	}
 }
 
 //动态链表
@@ -59,7 +70,7 @@ void test_32()
 	pNodeArr[3]->next = pNodeArr[4];
 	pNodeArr[4]->next = NULL;
 	//打印
-	struct LinkNode * currentNode = pNodeArr[0];
+	struct LinkNode * currentNode = pNodeArr[0];//迭代器指向头结点
 	while (currentNode != NULL)
 	{
 		printf("%d\n", currentNode->num);
@@ -71,5 +82,6 @@ void test_32()
 }
 void main_03()
 {
-	test_32();
+	test_31();
+	//test_32();
 }
