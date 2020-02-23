@@ -1,0 +1,11 @@
+﻿  main.c
+d:\github_file\c_high_level_study\c_high_level_study\main.c(10): warning C4101: “P1”: 未引用的局部变量
+d:\github_file\c_high_level_study\c_high_level_study\main.c(12): warning C4101: “p1”: 未引用的局部变量
+d:\github_file\c_high_level_study\c_high_level_study\main.c(12): warning C4101: “p2”: 未引用的局部变量
+d:\github_file\c_high_level_study\c_high_level_study\main.c(10): warning C4101: “P2”: 未引用的局部变量
+d:\github_file\c_high_level_study\c_high_level_study\main.c(34): warning C4133: “=”: 从“Person *”到“char *”的类型不兼容
+d:\github_file\c_high_level_study\c_high_level_study\main.c(40): warning C4133: “初始化”: 从“Person *”到“int *”的类型不兼容
+d:\github_file\c_high_level_study\c_high_level_study\main.c(74): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“char *”
+d:\github_file\c_high_level_study\c_high_level_study\main.c(75): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“char *”
+d:\github_file\c_high_level_study\c_high_level_study\main.c(76): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“char (*)[13]”
+  C_high_level_study.vcxproj -> D:\github_file\C_high_level_study\Debug\C_high_level_study.exe

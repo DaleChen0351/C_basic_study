@@ -1,0 +1,8 @@
+﻿  内存四区及注意C.c
+d:\github_file\c_high_level_study\内存四区及注意事项\内存四区及注意c.c(67): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“char *”
+d:\github_file\c_high_level_study\内存四区及注意事项\内存四区及注意c.c(68): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“char *”
+d:\github_file\c_high_level_study\内存四区及注意事项\内存四区及注意c.c(69): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“char (*)[13]”
+d:\github_file\c_high_level_study\内存四区及注意事项\内存四区及注意c.c(107): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“int *”
+d:\github_file\c_high_level_study\内存四区及注意事项\内存四区及注意c.c(113): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“int *”
+d:\github_file\c_high_level_study\内存四区及注意事项\内存四区及注意c.c(8): warning C4172: 返回局部变量或临时变量的地址: str
+  内存四区及注意事项.vcxproj -> D:\github_file\C_high_level_study\Debug\内存四区及注意事项.exe

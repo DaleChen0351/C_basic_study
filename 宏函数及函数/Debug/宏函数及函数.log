@@ -1,0 +1,6 @@
+﻿  宏函数及函数.c
+d:\github_file\c_high_level_study\宏函数及函数\宏函数及函数.c(46): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“int *”
+d:\github_file\c_high_level_study\宏函数及函数\宏函数及函数.c(47): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“int *”
+d:\github_file\c_high_level_study\宏函数及函数\宏函数及函数.c(48): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“int *”
+d:\github_file\c_high_level_study\宏函数及函数\宏函数及函数.c(59): warning C4133: “初始化”: 从“int *”到“unsigned char *”的类型不兼容
+  宏函数及函数.vcxproj -> D:\github_file\C_high_level_study\Debug\宏函数及函数.exe

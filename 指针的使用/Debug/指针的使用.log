@@ -1,0 +1,16 @@
+﻿  指针的使用.c
+d:\github_file\c_high_level_study\指针的使用\指针的使用.c(38): warning C4133: “=”: 从“Person *”到“char *”的类型不兼容
+d:\github_file\c_high_level_study\指针的使用\指针的使用.c(44): warning C4133: “初始化”: 从“Person *”到“int *”的类型不兼容
+d:\github_file\c_high_level_study\指针的使用\指针的使用.c(83): warning C4477: “printf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“int”
+d:\github_file\c_high_level_study\指针的使用\指针的使用.c(81): warning C4047: “初始化”:“char *”与“int”的间接级别不同
+d:\github_file\c_high_level_study\指针的使用\指针的使用.c(110): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“char *”
+d:\github_file\c_high_level_study\指针的使用\指针的使用.c(112): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“char *”
+d:\github_file\c_high_level_study\指针的使用\指针的使用.c(115): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“float *”
+d:\github_file\c_high_level_study\指针的使用\指针的使用.c(116): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“float *”
+d:\github_file\c_high_level_study\指针的使用\指针的使用.c(117): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“float *”
+d:\github_file\c_high_level_study\指针的使用\指针的使用.c(120): warning C4133: “初始化”: 从“int *”到“unsigned char *”的类型不兼容
+d:\github_file\c_high_level_study\指针的使用\指针的使用.c(129): warning C4133: “初始化”: 从“int *”到“char *”的类型不兼容
+d:\github_file\c_high_level_study\指针的使用\指针的使用.c(147): warning C4047: “初始化”:“char”与“char [2]”的间接级别不同
+d:\github_file\c_high_level_study\指针的使用\指针的使用.c(148): warning C4133: “初始化”: 从“Student *”到“char *”的类型不兼容
+d:\github_file\c_high_level_study\指针的使用\指针的使用.c(230): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“FILE *”
+  指针的使用.vcxproj -> D:\github_file\C_high_level_study\Debug\指针的使用.exe
