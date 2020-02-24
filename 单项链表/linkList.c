@@ -42,7 +42,108 @@ struct LinkNode* init_LinkList_C()
 	return pHeader;
 }
 
-void foreach_LinkList_C(struct LinkNode* pH)
+//插入一个新数据，在oldVal前插入newVal，如果没有oldVal,就尾插
+void insert_LinkList_C(struct LinkNode* pHeader, int oldVal, int newVal)
+{
+	if (pHeader == NULL)
+	{
+		return;
+	}
+	//创建两个辅助指针变量
+	struct LinkNode* preNode = pHeader;
+	struct LinkNode* curNode = pHeader->next;
+
+	while (curNode != NULL)
+	{
+		if (curNode->num == oldVal)
+		{
+			break;
+		}
+		else
+		{
+			//如果没有找到位置，则让辅助指针们向后移
+			preNode = curNode;
+			curNode = curNode->next;
+		}
+	}
+	//如果找到了，或者遍历结束都没找到，则插入（尾插）
+	//新建节点
+	struct LinkNode* newNode = malloc(sizeof(struct LinkNode));
+	newNode->num = newVal;
+	newNode->next = NULL;
+	//建立关系
+	newNode->next = curNode;
+	preNode->next = newNode; 
+}
+
+//删除列表中的数
+void remove_LinkList_C(struct LinkNode* pHeader, int val)
+{
+	if (pHeader == NULL)
+	{
+		return;
+	}
+	//创建辅助指针
+	struct LinkNode* preNode = pHeader;
+	struct LinkNode* curNode = pHeader->next;
+
+	//遍历链表
+	while (curNode != NULL)
+	{
+		if (curNode->num == val)//注意 == 号
+		{
+			break;
+		}
+		//往前移动
+		preNode = curNode;
+		curNode = curNode->next;
+	}
+	//如果没找到要删除的值，则指直接返回
+	if (curNode == NULL)
+	{
+		return;
+	}
+	//建立关系
+	preNode->next = curNode->next;
+	//释放curNode节点
+	free(curNode);
+	curNode = NULL;
+}
+//清空链表
+void clear_LinkList_C(struct LinkNode* pHeader)
+{
+	if (pHeader == NULL)
+	{
+		return;
+	}
+	//创建临时指针
+	struct LinkNode* curNode = pHeader->next;
+	while (curNode != NULL)
+	{
+		//先保存待删除节点后面的节点
+		struct LinkNode* nextNode = curNode->next;
+		free(curNode);
+		curNode = nextNode;
+	}
+
+	//将头结点的next指针置为空
+	pHeader->next = NULL;
+}
+//销毁链表
+void destroy_LinkList(struct LinkNode* pHeader)
+{
+	if (pHeader == NULL)
+	{
+		return;
+	}
+	//先清空链表
+	clear_LinkList_C(pHeader);
+	//再释放头节点
+	free(pHeader);
+	pHeader = NULL;
+}
+
+void foreach_LinkList_C(struct LinkNode* pH)//传入头结点
 {
 	if (pH == NULL)
 	{

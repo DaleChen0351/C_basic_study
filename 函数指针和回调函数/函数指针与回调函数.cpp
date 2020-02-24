@@ -3,6 +3,7 @@
 using namespace std;
 
 // 函数指针定义
+//函数名就是有一个函数指针，值打印出来，就是一个地址值
 int func(float val)
 {
 	cout << val << endl;

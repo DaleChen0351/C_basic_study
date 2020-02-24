@@ -42,6 +42,7 @@ struct LinkNode** allocateNodeSpace(int len)
 	{
 		temp[i] = malloc(sizeof(struct LinkNode));
 		temp[i]->num = i + 1;
+		temp[i]->next = NULL;
 	}
 	return temp;
 }
@@ -68,7 +69,6 @@ void test_32()
 	pNodeArr[1]->next = pNodeArr[2];
 	pNodeArr[2]->next = pNodeArr[3];
 	pNodeArr[3]->next = pNodeArr[4];
-	pNodeArr[4]->next = NULL;
 	//打印
 	struct LinkNode * currentNode = pNodeArr[0];//迭代器指向头结点
 	while (currentNode != NULL)
