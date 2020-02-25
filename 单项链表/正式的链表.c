@@ -5,19 +5,19 @@
 
 
 
-struct LinkNode
+static struct LinkNode
 {
-	void* data;
+	void* data;//用户自定义数据类型
 	struct LinkNode* next;
 };
 
-struct LList
+static struct LList
 {
-	struct LinkNode pHeader;
+	struct LinkNode pHeader;//为啥不是指针？
 	int m_size;
 };
 
-typedef void* LinkList;
+typedef void* LinkList;//不要让用户随意修改，不能让用户知道其实现细节
 //初始化LinkList
 LinkList init_LinkList()
 {

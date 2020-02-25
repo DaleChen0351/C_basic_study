@@ -125,13 +125,8 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.c" />
-    <ClCompile Include="动态链表和静态链表.c" />
-    <ClCompile Include="linkList.c" />
+    <ClCompile Include="正式的链表2.c" />
     <ClCompile Include="链表基本概念.c" />
-    <ClCompile Include="正式的链表.c" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="linkList.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
