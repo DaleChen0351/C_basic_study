@@ -6,8 +6,10 @@
 
 
 //企业级开发使用的链表
-//用户准备出四个字节供我们帮助其维护链接 
+//用户数据需要出预留出四个字节供我们帮助其维护链接 
 //用户自己维护数据域，我们只帮助其链接
+//我们只维护指针域，不维护数据域
+
 
 typedef void* LinkList;
 
@@ -48,7 +50,7 @@ void insert_LinkList(LinkList list, int pos, void* data)
 	struct LList* mylist = list;
 	if (pos < 0 || pos >mylist->m_size -1)
 	{
-		pos = mylist->m_size;
+		pos = mylist->m_size;//尾插
 	}
 	//找到插入的位置
 	struct LinkNode* curNode = &mylist->m_header;
@@ -83,6 +85,56 @@ void foreach_LinkList(LinkList list, void(*myprint)(void*))
 	}
 }
 
+
+void removeByPos_LinkList( LinkList list, int pos)
+{
+	if (list == NULL)
+	{
+		return;
+	}
+	struct LList* mylist = list;
+
+	if (pos<0 || pos>mylist->m_size - 1)
+	{
+		pos = mylist->m_size;//尾删
+	}
+	//前驱节点
+	struct LinkNode* curNode = &mylist->m_header;
+	for (int i = 0; i < pos; i++)
+	{
+		curNode = curNode->next;
+	}
+	//建立指向待删除的节点指针
+	struct LinkNode* delNode = curNode->next;
+	//建立关系
+	curNode->next = delNode->next;
+	// 链表中不维护数据域的，写了free会出错
+	//free()
+	delNode->next = NULL;//why Not？
+	mylist->m_size--;
+}
+
+void destory_LinkList(LinkList list)
+{
+	if (list == NULL)
+	{
+		return;
+	}
+	free(list);
+	list = NULL;
+}
+
+
+
+
+
+
+
+
+//destroy
+
+
+
 //用户类型
 struct Person
 {
@@ -112,6 +164,12 @@ void test_01()
 	insert_LinkList(list, 1, &p4);
 	insert_LinkList(list, 100, &p5);
 	foreach_LinkList(list,Myprint );
+
+	printf("delete a node :\n");
+	removeByPos_LinkList(list,2);
+	foreach_LinkList(list, Myprint);
+	destory_LinkList(list);
+	list = NULL;
 }
 
 int main()

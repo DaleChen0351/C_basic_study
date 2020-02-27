@@ -18,10 +18,10 @@
     <ClCompile Include="栈的基本概念.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="栈的顺序存储.c">
+    <ClCompile Include="栈的链式存储.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="栈的链式存储.c">
+    <ClCompile Include="栈的顺序存储.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

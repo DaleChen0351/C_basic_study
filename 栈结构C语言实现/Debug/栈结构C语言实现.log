@@ -1,4 +1,2 @@
-﻿  栈的顺序存储.c
-d:\github_file\c_high_level_study\栈结构c语言实现\栈的顺序存储.c(23): warning C4047: “函数”:“int”与“void *”的间接级别不同
-d:\github_file\c_high_level_study\栈结构c语言实现\栈的顺序存储.c(23): warning C4024: “memset”: 形参和实参 2 的类型不同
+﻿  栈的链式存储.c
   栈结构C语言实现.vcxproj -> D:\github_file\C_high_level_study\Debug\栈结构C语言实现.exe
