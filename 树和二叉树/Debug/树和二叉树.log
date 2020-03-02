@@ -1,0 +1,5 @@
+﻿  二叉树的非递归遍历.c
+  树和二叉树.c
+d:\github_file\c_high_level_study\树和二叉树\树和二叉树.c(14): warning C4013: “test_31”未定义；假设外部返回 int
+  正在生成代码...
+  树和二叉树.vcxproj -> D:\github_file\C_high_level_study\Debug\树和二叉树.exe

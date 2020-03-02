@@ -23,7 +23,7 @@ void insert_dynamicArray(struct dynamicArray* arr, int pos, void* data);
 void for_each_dynamicArray(struct dynamicArray* arr, void(*myprint)(void*));
 
 // 按照位置删除数组中的元素
-void removeByPos_dynamicArray(struct dynamicArray* arr, int pos);
+void removeByPos_dynamicArray(struct dynamicArray* arr, int pos); 
 
 // 按照值删除数组中的元素
 void removeByValue_dynamicArray(struct dynamicArray* arr, struct Person* data, int(*mycompare)(void*, void*));

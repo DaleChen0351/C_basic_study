@@ -123,6 +123,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="函数指针.c" />
     <ClCompile Include="函数指针与回调函数.cpp" />
   </ItemGroup>
   <ItemGroup>

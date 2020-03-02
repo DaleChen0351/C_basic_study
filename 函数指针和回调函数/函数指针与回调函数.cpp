@@ -124,8 +124,14 @@ void test_08()
 	}
 }
 
-
+extern "C" void test_21();
+extern "C" void test_22();
+extern "C" void test_23();
 int main()
 {
 	//test_fopen();
+
+	//test_22();
+	test_23();
+
 }

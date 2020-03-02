@@ -1,5 +1,5 @@
-﻿  函数指针与回调函数.cpp
-d:\github_file\c_high_level_study\函数指针和回调函数\函数指针与回调函数.cpp(9): warning C4244: “return”: 从“float”转换到“int”，可能丢失数据
-d:\github_file\c_high_level_study\函数指针和回调函数\函数指针与回调函数.cpp(130): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“FILE *”
-d:\github_file\c_high_level_study\函数指针和回调函数\函数指针与回调函数.cpp(129): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(208): note: 参见“fopen”的声明
+﻿  函数指针.c
+d:\github_file\c_high_level_study\函数指针和回调函数\函数指针.c(15): warning C4047: “初始化”:“char *”与“void **”的间接级别不同
+d:\github_file\c_high_level_study\函数指针和回调函数\函数指针.c(32): warning C4047: “函数”:“void **”与“int [5]”的间接级别不同
+d:\github_file\c_high_level_study\函数指针和回调函数\函数指针.c(32): warning C4022: “printArray”: 指针与实参 1 不匹配
+  函数指针和回调函数.vcxproj -> D:\github_file\C_high_level_study\Debug\函数指针和回调函数.exe
