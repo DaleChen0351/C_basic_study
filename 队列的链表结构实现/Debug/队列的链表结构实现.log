@@ -1,0 +1,5 @@
+﻿  linkQueue.c
+d:\github_file\c_high_level_study\队列的链表结构实现\linkqueue.c(30): warning C4133: “=”: 从“QueueNode *”到“QueLQueueueNode *”的类型不兼容
+d:\github_file\c_high_level_study\队列的链表结构实现\linkqueue.c(47): warning C4133: “初始化”: 从“QueLQueueueNode *”到“QueueNode *”的类型不兼容
+d:\github_file\c_high_level_study\队列的链表结构实现\linkqueue.c(65): warning C4133: “初始化”: 从“QueLQueueueNode *”到“QueueNode *”的类型不兼容
+  队列的链表结构实现.vcxproj -> D:\github_file\C_high_level_study\Debug\队列的链表结构实现.exe

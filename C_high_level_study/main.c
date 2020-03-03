@@ -26,17 +26,60 @@ void test_08()
 {
 	printf("Myadd = %d\n", MYADD(1, 2));
 }
+//宏函数
+//宏定义不重视作用域
+//宏变量没有数据类型
+void test_11()
+{
+#define MAX 1024//从这行开始，一直到文件尾。宏不重视作用域
+	
+
+}
+//条件编译
+#define DEBUG
+
+#ifndef DEBUG    //ifdef
+void test_12()
+{
+	printf("debug版本\n");
+}
+#else
+	#if 0   //条件编译
+		void test_12()
+		{
+			printf("release版本1\n");
+		}
+	#else
+		void test_12()
+		{
+			printf("release版本2\n");
+		}
+	#endif
+
+#endif // DEBUG
+
+//特殊的宏
+void test_03(int * p)
+{
+	if (p == NULL)
+	{
+		printf("文件：%s   的%d行出错了\n", __FILE__, __LINE__);
+		printf("%s   %s\n", __DATE__, __TIME__);
+		printf("timestamp = %s\n", __TIMESTAMP__);
+		
+	}
+}
+
 int main()
 {
-	//test_02();
-	//test_03();
-	//test_04();
-	//test_05();
-	//test_06();
-	//test_07();
-	test_08();
+
+	printf("MAX = %d\n", MAX);
+	test_12();
+	//test_03(NULL);
 	system("pause");
 	return EXIT_SUCCESS;
-	
+
 	
 }
+#undef MAX
+//卸载宏

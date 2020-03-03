@@ -43,6 +43,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "队列的C语言实现", "�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "树和二叉树", "树和二叉树\树和二叉树.vcxproj", "{49088F24-1187-48F7-9FAD-07234B9E86AB}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "队列的链表结构实现", "队列的链表结构实现\队列的链表结构实现.vcxproj", "{10F31FC8-C79D-4D62-B297-9ED73214F545}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -211,6 +213,14 @@ Global
 		{49088F24-1187-48F7-9FAD-07234B9E86AB}.Release|x64.Build.0 = Release|x64
 		{49088F24-1187-48F7-9FAD-07234B9E86AB}.Release|x86.ActiveCfg = Release|Win32
 		{49088F24-1187-48F7-9FAD-07234B9E86AB}.Release|x86.Build.0 = Release|Win32
+		{10F31FC8-C79D-4D62-B297-9ED73214F545}.Debug|x64.ActiveCfg = Debug|x64
+		{10F31FC8-C79D-4D62-B297-9ED73214F545}.Debug|x64.Build.0 = Debug|x64
+		{10F31FC8-C79D-4D62-B297-9ED73214F545}.Debug|x86.ActiveCfg = Debug|Win32
+		{10F31FC8-C79D-4D62-B297-9ED73214F545}.Debug|x86.Build.0 = Debug|Win32
+		{10F31FC8-C79D-4D62-B297-9ED73214F545}.Release|x64.ActiveCfg = Release|x64
+		{10F31FC8-C79D-4D62-B297-9ED73214F545}.Release|x64.Build.0 = Release|x64
+		{10F31FC8-C79D-4D62-B297-9ED73214F545}.Release|x86.ActiveCfg = Release|Win32
+		{10F31FC8-C79D-4D62-B297-9ED73214F545}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
