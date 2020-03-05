@@ -125,6 +125,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.c" />
+    <ClCompile Include="正式的链表.c" />
     <ClCompile Include="正式的链表2.c" />
     <ClCompile Include="链表基本概念.c" />
   </ItemGroup>
