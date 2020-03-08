@@ -1,0 +1,2 @@
+﻿mylib.obj : warning LNK4099: 未找到 PDB“静态库的创建和使用.pdb”(使用“mylib.obj”或在“D:\github_file\C_high_level_study\Debug\静态库的创建和使用.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+  测试库文件的使用.vcxproj -> D:\github_file\C_high_level_study\Debug\测试库文件的使用.exe

@@ -1,0 +1,4 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: 中间目录(Debug\)包含从另一个项目(动态库的创建.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
+  mydll.c
+    正在创建库 D:\github_file\C_high_level_study\Debug\mydll.lib 和对象 D:\github_file\C_high_level_study\Debug\mydll.exp
+  动态库的创建.vcxproj -> D:\github_file\C_high_level_study\Debug\mydll.dll
