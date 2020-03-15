@@ -1,5 +1,2 @@
-﻿  二叉树的非递归遍历.c
-  树和二叉树.c
-d:\github_file\c_high_level_study\树和二叉树\树和二叉树.c(14): warning C4013: “test_31”未定义；假设外部返回 int
-  正在生成代码...
-  树和二叉树.vcxproj -> D:\github_file\C_high_level_study\Debug\树和二叉树.exe
+﻿树和二叉树.obj : error LNK2019: 无法解析的外部符号 _test_61，该符号在函数 _main 中被引用
+D:\github_file\C_high_level_study\Debug\树和二叉树.exe : fatal error LNK1120: 1 个无法解析的外部命令

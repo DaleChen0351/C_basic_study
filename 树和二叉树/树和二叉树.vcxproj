@@ -136,6 +136,8 @@
     <ClInclude Include="二叉树的表示.h" />
   </ItemGroup>
   <ItemGroup>
+    <Image Include="二分查找树.png" />
+    <Image Include="二叉树的定义.png" />
     <Image Include="二叉树的非递归遍历.png" />
     <Image Include="选择排序.png" />
   </ItemGroup>

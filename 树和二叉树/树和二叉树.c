@@ -3,7 +3,7 @@
 #include <string.h>
 #include <stdlib.h>
 
-
+extern void test_61();
 
 int main()
 {
@@ -11,5 +11,6 @@ int main()
 	//test_02();
 	//test_11();
 	//test_21();
-	test_31();
+	//test_31();
+	test_61();
 }

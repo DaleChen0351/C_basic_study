@@ -31,10 +31,10 @@ int getTreeHeight(struct BinaryNode* node)
 	{
 		return 0;
 	}
-	//求出左右子树的度
+	//求出左右子树的深度
 	int heightL = getTreeHeight(node->lchild);
 	int heightR = getTreeHeight(node->rchild);
-	//树的深度等于左右子树的度的最大值 再加一
+	//树的深度等于左右子树的深度的最大值 再加一
 	return heightL > heightR ? heightL + 1 : heightR + 1;//相等的时候返回后边的
 
 }
